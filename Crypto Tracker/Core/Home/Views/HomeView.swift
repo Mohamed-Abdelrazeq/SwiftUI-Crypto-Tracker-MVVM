@@ -23,6 +23,8 @@ struct HomeView: View {
             
                 homeHeader
                 
+                HomeStatsView(showPortfolio: $showPortfolio)
+                
                 SearchBarView(searchText: $vm.searchText)
             
                 columnTitles
@@ -79,7 +81,7 @@ extension HomeView {
                         }
                     }
             }
-            .padding(.horizontal)
+            .padding()
     }
     
     private var allCoinsList: some View {
