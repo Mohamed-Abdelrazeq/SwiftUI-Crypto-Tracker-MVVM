@@ -18,6 +18,8 @@
 		50A500DD28EBA60A0099E3E3 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A500DC28EBA60A0099E3E3 /* StatisticModel.swift */; };
 		50A500E028EBA6D80099E3E3 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A500DF28EBA6D80099E3E3 /* StatisticView.swift */; };
 		50A500E228EBAA680099E3E3 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A500E128EBAA680099E3E3 /* HomeStatsView.swift */; };
+		50A500E428EBAD8C0099E3E3 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A500E328EBAD8B0099E3E3 /* MarketDataModel.swift */; };
+		50A500E628EBB1480099E3E3 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A500E528EBB1480099E3E3 /* MarketDataService.swift */; };
 		50FEB26528E482FA00AA56E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FEB26428E482FA00AA56E8 /* HomeView.swift */; };
 		50FEB26928E4846800AA56E8 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FEB26828E4846800AA56E8 /* CircleButtonView.swift */; };
 		50FEB26B28E4899300AA56E8 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FEB26A28E4899300AA56E8 /* CircleButtonAnimationView.swift */; };
@@ -46,6 +48,8 @@
 		50A500DC28EBA60A0099E3E3 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		50A500DF28EBA6D80099E3E3 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		50A500E128EBAA680099E3E3 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
+		50A500E328EBAD8B0099E3E3 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		50A500E528EBB1480099E3E3 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		50FEB26428E482FA00AA56E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		50FEB26828E4846800AA56E8 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		50FEB26A28E4899300AA56E8 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -200,6 +204,7 @@
 			children = (
 				50FEB26D28E4966B00AA56E8 /* CoinModel.swift */,
 				50A500DC28EBA60A0099E3E3 /* StatisticModel.swift */,
+				50A500E328EBAD8B0099E3E3 /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			children = (
 				50FEB27828E7397800AA56E8 /* CoinDataService.swift */,
 				50FEB28028E7480900AA56E8 /* CoinImageService.swift */,
+				50A500E528EBB1480099E3E3 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				50FEB27628E5F73700AA56E8 /* HomeViewModel.swift in Sources */,
 				50FEB27C28E73FD500AA56E8 /* NetworkManager.swift in Sources */,
 				502D0FFB28EB5AEB00BE5C11 /* LocalFileManager.swift in Sources */,
+				50A500E428EBAD8C0099E3E3 /* MarketDataModel.swift in Sources */,
 				501E04DC28E07DCD00C0552E /* ContentView.swift in Sources */,
 				50A500E028EBA6D80099E3E3 /* StatisticView.swift in Sources */,
 				50FEB27F28E746C500AA56E8 /* CoinImageView.swift in Sources */,
@@ -317,6 +324,7 @@
 				50A500D928EB971A0099E3E3 /* SearchBarView.swift in Sources */,
 				501E04EA28E07E6D00C0552E /* Color.swift in Sources */,
 				50A500E228EBAA680099E3E3 /* HomeStatsView.swift in Sources */,
+				50A500E628EBB1480099E3E3 /* MarketDataService.swift in Sources */,
 				50FEB26B28E4899300AA56E8 /* CircleButtonAnimationView.swift in Sources */,
 				50FEB28328E7495A00AA56E8 /* CoinImageViewModel.swift in Sources */,
 				50FEB27228E49B2200AA56E8 /* previewProvider.swift in Sources */,
